@@ -1,4 +1,4 @@
-const Backdrop = () => {
-  return <div className="backdrop" />;
+const Backdrop = ({ CloseHandler }) => {
+  return <div className="backdrop" onClick={CloseHandler} />;
 };
 export default Backdrop;
